@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="609.0" prefWidth="538.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.itea.MyController">
+   <children>
+      <Label fx:id="lblDota" layoutX="189.0" layoutY="17.0" prefHeight="36.0" prefWidth="297.0" wrapText="true" />
+      <ImageView fx:id="img1" fitHeight="201.0" fitWidth="154.0" layoutX="14.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Pic1.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbl1" layoutX="14.0" layoutY="14.0" prefHeight="42.0" prefWidth="154.0" text="Dota2:" wrapText="true" />
+      <ImageView fx:id="img2" fitHeight="201.0" fitWidth="154.0" layoutX="14.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/pictures/Pic2.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="txtAreaImg1" layoutX="189.0" layoutY="67.0" prefHeight="200.0" prefWidth="341.0" wrapText="true" />
+      <TextArea fx:id="txtAreaImg2" layoutX="189.0" layoutY="285.0" prefHeight="153.0" prefWidth="341.0" wrapText="true" />
+   </children>
+</AnchorPane>
