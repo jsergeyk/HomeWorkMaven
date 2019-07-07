@@ -54,8 +54,15 @@
   
   <dependencies>
   
-    <dependency>
-    
+	<!-- https://mvnrepository.com/artifact/org.openjfx/javafx -->
+	<dependency>
+	    <groupId>org.openjfx</groupId>
+	    <artifactId>javafx</artifactId>
+	    <version>11</version>
+	    <type>pom</type>
+	</dependency>
+	
+    <dependency>    
       <groupId>Call.of.Duty</groupId>
       <artifactId>BloodBorn</artifactId>
       <version>3.2.1</version>
